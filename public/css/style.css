@@ -264,6 +264,10 @@ article#press{
   text-align: left;
 }
 
+#popup{
+  float:right;
+}
+
 #overview{
   margin-left:30%;
   margin-right:15%;
