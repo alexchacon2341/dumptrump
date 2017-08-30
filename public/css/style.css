@@ -135,7 +135,7 @@ header a:hover{
 #banner{
   min-height:400px;
   max-height:400px;
-  background:url('../img/Flyer.png') repeat 0% -20px;
+  background:url('../img/Banner.png') repeat 43% -1000px;
   text-align:center;
   border-bottom:#e8491d 3px solid;
 }
