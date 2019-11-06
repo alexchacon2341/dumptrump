@@ -12,9 +12,9 @@ body{
   overflow:hidden;
 }
 
-ul{
-  margin:0;
-  padding:0;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -214,9 +214,9 @@ aside#toc{
 }
 
 /* Main-col */
-article#main-col{
-  float:left;
-  width:60%;
+article#main-col {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 article#press{
@@ -286,15 +286,15 @@ article#press{
 
 /* Shop */
 
-ul#services li{
-  list-style: none;
-  padding-left: 20px;
-  padding-right: 18px;
-  padding-top:0;
-  padding-bottom:125px;
-  border: #cccccc solid 1px;
-  margin-bottom:8px;
-  background:#e6e6e6;
+ul#services li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 0;
+    padding-bottom: 265px;
+    border: #cccccc solid 1px;
+    margin-bottom: 8px;
+    background: #e6e6e6;
 }
 
 #services h3{
@@ -306,6 +306,7 @@ ul#services li{
   text-decoration: underline;
   margin-top: 10px;
   margin-bottom: 18px;
+  text-align: center;
 }
 
 .dark h3{
