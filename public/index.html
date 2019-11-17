@@ -1,117 +1,23 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en-us">
 <head>
-	<title>Dump! Trump! | Welcome</title>
-
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Make America Game Again!">
-	<meta name="keywords" content="dump trump, dump, trump, mobile games, app store, ios">
-	<meta name="author" content="Alex Chacon">
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Web Fonts -->
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Dump! Trump!</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});</script>
 </head>
-
 <body>
-	<header>
-		<div class="container">
-            <div id="branding">
-                <img src="./img/Logo.png" style="width:270px;height:150px;">
-            </div>
-			<nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="press.html">Press</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="game.html">Play in Browser</a></li>
-                    <li><a href="https://testflight.apple.com/join/yfLVuk5f">Play on iOS</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.CavemanGames.DumpTrump&fbclid=IwAR0SC-BrdvpvhrFN2Zt-2_1sJ5j9kJbPVhU3uLinA4XR41lYE1VJ1CTnMSI">Play on Android</a></li>
-                </ul>
-			</nav>
-		</div>
-	</header>
-
-	<section>
-		<div id="banner">
-			<iframe id="homeborder" width="680" height="400" src="https://www.youtube.com/embed/nMsN1qGET8Y" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</section>
-
-	<p id="homestart">
-	Are you being bothered by narcissistic, bullying billionaires? Want to punch them in their ugly faces? Drop them off a cliff? Run them over with a freight train? Well now you can!
-	</p><p class="homep">
-	In an unpresidented experience, all it takes to save your pussycat is a series of 45 fast-paced, exciting mini-games! With just a few swipes, you can stop your pussy from being grabbed by the deplorable businessman-turned-politician, Ronald Dump!
-	</p><p class="homep">
-	What are you waiting for? Tapp that covfefe!
-	</p>
-	<h6></h6>
-
-	<section id="boxes">
-		<div class="container">
-			<h4><u>Characters</u></h4>
-			<div class="box">
-				<img src="./img/Characters/Dump.png">
-				<h3>Ronald Dump</h3>
-				<p>Has tiny hands, but loves to grab things.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/America.png">
-				<h3>America</h3>
-				<p>Always seems to be sleeping.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Vladitry.png">
-				<h3>Vladitry Lutin</h3>
-				<p>The true villain?</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Reeve.png">
-				<h3>Reeve Bandit</h3>
-				<p>Apparently he got the boot.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Ike.png">
-				<h3>Ike Dense</h3>
-				<p>Can't be left alone with Iblanka.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Jellyanne.png">
-				<h3>Jellyanne Conman</h3>
-				<p>Excels in "alternative" truth.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Iblanka.png">
-				<h3>Iblanka Dump</h3>
-				<p>A blonde bombshell covering for her dad's bombshells.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Derrick.png">
-				<h3>Derrick Dump</h3>
-				<p>Everyone always forgets him.</p>
-			</div>
-			<div class="box">
-				<img src="./img/Characters/Stupid.png">
-				<h3>Stupid Dump</h3>
-				<p>What an idiot!</p>
-			</div>
-	</section>
-
-	<footer>
-		<img src="./img/Logo.png" style="width:270px;height:150px;">
-		<p>Copyright &copy; 2017</p>
-	</footer>
-
-<!--[if lt IE 9]>
-	<script src="assets/plugins/respond.js"></script>
-	<script src="assets/plugins/html5shiv.js"></script>
-	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
-	<![endif]-->
+    <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+            <div class="title">Dump! Trump!</div>
+        </div>
+    </div>
 </body>
 </html>
